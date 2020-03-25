@@ -19,7 +19,7 @@ rooms
 end
 
 def printer(speaker)
-  batch_badge_creator
+  batch_badge_creator(speakers)
   assign_rooms
   puts messages
   puts rooms
