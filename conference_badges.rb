@@ -1,5 +1,5 @@
 speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def batch_badge_creator(name)
-  batch_badge_creator.each 
+  batch_badge_creator.each do |name|
   "Hello, my name is #{name}."
